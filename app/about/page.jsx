@@ -3,11 +3,11 @@ import React from 'react'
 const about = () => {
   return (
     <section>
-      <div className="box">
-        <div className="a-title">
+      <div className=" bg-bgGray m-5">
+        <div className=" bg-white text-center border border-solid border-silver border-b-0 p-5">
           <h2>About Us</h2>
         </div>
-        <div className="text">
+        <div className="bg-white p-5 border border-solid border-silver">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam tenetur dolor, perspiciatis excepturi vel vitae reprehenderit fugiat fuga temporibus deserunt voluptate, iste expedita velit quam mollitia recusandae harum, nulla minus.
           </p>

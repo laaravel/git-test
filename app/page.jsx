@@ -1,13 +1,13 @@
 
 const Home = () => {
     return (
-      <section className="home">
-        <div className="sidebar-right">
-          <div className="ad-box">
-            <div className="ad-title">
+      <section className="flex flex-row-reverse">
+        <div className="w-3/12 mt-4 border border-solid border-silver h-[300px] bg-white">
+          <div className="bg-white p-5 ">
+            <div className="mb-2.5">
               <h2>Advertisement</h2>
             </div>
-            <div className="fake-img">
+            <div className="bg-darkgray p-8 mb-2.5">
               image
             </div>
             <div className="ad-text">
@@ -18,15 +18,15 @@ const Home = () => {
   
           </div>
         </div>
-        <div className="sidebar-left">
-          <div className="box-l">
-            <div className="title">
+        <div className="w-9/12 mt-4 ">
+          <div className=" bg-white border border-solid border-silver p-5 mr-4 mb-5">
+            <div className="mb-4">
               <h2>Wellcome To Our Site ;)</h2>
             </div>
-            <div className="date">
+            <div className="text-sm mb-4">
               Dec 7, 2024
             </div>
-            <div className="fake-img">
+            <div className="bg-darkgray p-20 mb-4">
               image
             </div>
             <div className="text">
